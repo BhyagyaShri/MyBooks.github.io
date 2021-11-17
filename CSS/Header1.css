@@ -1,0 +1,138 @@
+.navbar {
+  border-bottom: 2px solid #f26751;
+  box-shadow: 3px 3px 6px #ecb3aa;
+  border-color: #f3cdc7;
+  
+}
+
+.navbar .navbar-brand{
+  color:#f26751; 
+}
+.navbar .navbar-brand:hover{
+  background-color: #f5563de1;
+  color: antiquewhite;
+}
+ul li{
+  color:#ff2300;
+}
+li a{
+  text-decoration: none;
+  color: #f76a54;
+  
+}
+.navbar-collapse .navbar-nav .nav-link{
+  color:#f26751;  
+}
+.d-flex .nav-link{
+  color:#f26751;
+}
+.d-flex .nav-link:hover{
+  background-color: #f5563de1;
+  color: antiquewhite;
+
+}
+
+.navbar-collapse .navbar-nav .nav-link:hover{
+ background-color: #f5563de1;
+ color: antiquewhite;
+  
+}
+.header .nav  {  
+  font-size: xx-large;
+ color:  #f26751;
+}
+.card-body{
+   padding:0;
+  text-align: center;
+  background-color: #fff3eb;
+}
+.newsletter {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background: antiquewhite;
+  }
+ 
+  .newsletter .content {
+    
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+  .newsletter .content h2 {
+  color: #f26751;
+  margin-bottom: 20px; }
+  .newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius:0;
+  }
+  .newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+  }
+  .newsletter .content .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #f26751;
+  color: #fff;
+  font-weight:600;
+  }
+  .dropdown-menu .dropdown-item {
+    background-color: antiquewhite;
+    color:#f76a54;
+  
+  }
+
+.btn{
+  background-color: #f26751;
+  color: #1d1b1b;
+  border: antiquewhite;
+  margin-bottom: 10px;
+  padding: 0 6px;
+}
+.btn:hover{
+  background-color: #ff2300;
+  color: antiquewhite;
+}
+.checked {
+  color: orange;
+}
+.unchecked{
+  color:black;
+}
+.footer{
+  
+  border-top: 2px solid #f26751;;
+  border-color: #f3cdc7;
+}
+ .footer p{
+  background-color:antiquewhite;
+  margin-bottom:0;
+
+  height: 40px;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+#Contact_Form{
+  box-shadow: 3px 3px 8px grey;
+  border-radius: 5px;
+  width: 400px;
+  min-height: 300px;
+  margin:auto;
+
+  
+}
+.card{
+  transition: box-shadow 0.2s;
+}
+.card:hover{
+    box-shadow: 0 14px 28px rgba(0.544, 0, 0, 0.544), 0 10px 10px rgba(0.544, 0, 0, 0.585);
+   
+  }
+  
+
+
+ 
