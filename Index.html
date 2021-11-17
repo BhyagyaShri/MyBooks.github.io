@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Book Store</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="bootstrap.css">
+      <link href="Css/Styles.css" rel="stylesheet"/>
+      <link rel="icon" href="Media/book_favicon.png" type="image" sizes="32x32">
+      <link href="https://fonts.googleapis.com/css2?family=Engagement&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="CSS/Header1.css">
+   </head>
+   <body style="color: #f26751;">
+      <div class="container-fluid" style="background-color: antiquewhite;padding: 0;">
+         <!--- Header-->
+         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:antiquewhite;">
+
+              <a class="navbar-brand" href="Index.html">The Book Store</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+                  </li>                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Books
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                      <li><a class="dropdown-item" href="NewArrival.html">New arrival</a></li>
+                      <li><a class="dropdown-item" href="OnSale.html">Onsale</a></li>
+                      <li><a class="dropdown-item" href="FeaturedBook.html">Featured Books</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="Aboutus.html">AboutUs</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <a class="nav-link" href="Login.html" >Login</a>
+                  <a class="nav-link" href="Signin.html" >Signin</a>
+
+
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              
+            </div>
+          </nav>
+         
+         <!-- Container -->
+         <div class="px-4 py-5 text-left" >
+            <div class="row col"> 
+               <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold" style="margin-top: 70px; line-height: 70px;">Buy Your Favourite Book From Here
+                  </h1>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-left">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3 mt-3 ">View More</button>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <img src="Media/book.jpg" class="img-fluid" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);" >
+               </div>
+            </div>
+            
+          </div>
+         <!-- Feature product content-->
+         
+         <div class="container">
+            <div class="row mt-3 ">
+                <div class=" col-lg-3 col-md-6 col-sm-6">
+                  <div class="card" >
+                      <img src="Media/book_1.jpg" class="card-img-top" alt="..." height="250px;">
+                      <div class="card-body" >
+                        <h5 class="card-title">Not All Diamonds & Rosé</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <p class="card-text">The Inside Story of The Real Housewives from the People Who Lived It.</p>
+                        <a href="Index.html" class="btn" >Buy Now</a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-6">
+                  <div class="card">
+                      <img src="Media/book_2.jpg" class="card-img-top" alt="..." height="250px;">
+                      <div class="card-body" >
+                        <h5 class="card-title">The 1619 Project</h5>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        
+                        <p class="card-text">A New Origin Story offers a profoundly revealing vision of the American past and present.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-6">
+                  <div class="card">
+                      <img src="Media/book3.jpg" class="card-img-top" alt="..." height="250px;">
+                      <div class="card-body" >
+                        <h5 class="card-title">Rich Dad Poor Dad</h5>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+
+                        <p class="card-text">story of growing up with two dads-his real father and the father of his best friend.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-6">
+                  <div class="card">
+                      <img src="Media/book7.jpg" class="card-img-top" alt="..." height="250px;">
+                      <div class="card-body" >
+                        <h5 class="card-title">The Psychology of Money</h5>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+
+                        <p class="card-text">Doing well with money isn’t necessarily about what you know. It’s about how you behave.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="row mt-3 ">
+              <div class=" col-lg-3 col-md-6 col-sm-6">
+                <div class="card">
+                    <img src="Media/book5.jpg" class="card-img-top" alt="..." height="250px;" class="img-fluid">
+                    <div class="card-body" >
+                      <h5 class="card-title" >Story Can Change Life</h5>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star unchecked"></span>
+                      <span class="fa fa-star unchecked"></span>
+                      <p class="card-text">Story can change your life,nuggets of eternal wisdom in anecdotes come from real experience.</p>
+                      <a href="#" class="btn btn-primary" >Buy Now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card">
+                    <img src="Media/book6.jpg" class="card-img-top" alt="..." height="250px;">
+                    <div class="card-body" >
+                      <h5 class="card-title">Make Your Own Luck</h5>
+
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star unchecked"></span>
+                      <span class="fa fa-star unchecked"></span>
+                      
+                      <p class="card-text">How to Increase Your Odds of Success in Sales, Startups, Corporate Career and Life.</p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class=" col-lg-3 col-md-6 col-sm-6">
+                <div class="card">
+                    <img src="Media/book8.jpg" class="card-img-top" alt="..." height="250px;">
+                    <div class="card-body" >
+                      <h5 class="card-title">No Limits</h5>
+
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star unchecked"></span>
+                      <span class="fa fa-star unchecked"></span>
+
+                      <p class="card-text">No Limits distils Bansal’s findings on talent, deliberate practice, mindset, habit, willpower and learning.</p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class=" col-lg-3 col-md-6 col-sm-6">
+                <div class="card"  >
+                    <img src="Media/book1.jpg" class="card-img-top" alt="..." height="250px;">
+                    <div class="card-body" >
+                      <h5 class="card-title">Be Good to Yourself</h5>
+
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star unchecked"></span>
+                      <span class="fa fa-star unchecked"></span>
+
+                      <p class="card-text">keep himself at the top condition;to obtain complete mastery of all his powers and possibilities..</p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+              </div>
+           </div>
+         </div>      
+        
+         
+          <section class="newsletter">
+            <div class="container">
+            <div class="row">
+            <div class="col-sm-12">
+              <div class="content">
+                <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+              <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <span class="input-group-btn">
+                    <button class="btn" type="submit">Subscribe Now</button>
+                    </span>
+                      </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            </section>
+
+         <div class="footer">
+           <p>All Rights are reserved</p>
+         </div>
+
+        
+      </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   </body>
+</html>
